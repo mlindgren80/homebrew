@@ -1,0 +1,47 @@
+
+tap "homebrew/cask"
+
+
+brew "autossh"
+brew "magic-wormhole"
+brew "mas"
+brew "nmap"
+brew "openconnect"
+brew "sipcalc"
+brew "tmux"
+
+cask_args appdir: "~/Applications"
+
+
+cask "alfred", greedy: true
+cask "bartender", greedy: true
+cask "brave-browser", greedy: true
+cask "cisco-jabber", greedy: true
+cask "discord", greedy: true
+cask "firefox", greedy: true
+cask "iina", greedy: true
+cask "iterm2", greedy: true
+cask "microsoft-auto-update", greedy: true
+cask "microsoft-edge", greedy: true
+cask "microsoft-outlook", greedy: true
+cask "microsoft-teams", greedy: true
+cask "microsoft-word", greedy: true
+cask "multipass", greedy: true
+cask "onedrive", greedy: true
+cask "signal", greedy: true
+cask "sublime-text", greedy: true
+cask "textmate", greedy: true
+cask "textual", greedy: true
+cask "visual-studio-code", greedy: true
+cask "vlc", greedy: true
+cask "webex", greedy: true
+cask "zoom", greedy: true
+
+mas "Magnet", id: 441258766
+
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode-remote.vscode-remote-extensionpack"
+vscode "ms-vscode.remote-explorer"
+vscode "ms-python.python"
+vscode "wholroyd.jinja"
